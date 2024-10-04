@@ -1,0 +1,85 @@
+/* Reset all default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove margin from body to eliminate spacing issues */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px; /* Padding for body */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin: -20px;
+}
+
+/* Reset padding and margin for header elements */
+header h1,
+header h2,
+header p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo .stoo {
+    color: #000;
+}
+
+.logo .bit {
+    color: #4169e1; /* Ultramarine blue */
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4169e1;
+}
+
+/* Legal Notice Section */
+main {
+    padding: 20px; /* Ensure there's padding around the main content */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #000;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #000;
+}
+
+p {
+    margin-bottom: 15px;
+}
