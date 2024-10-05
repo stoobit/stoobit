@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stoobit - Blog</title>
     <link rel="icon" type="image/png" href="assets/favicon.png">
-    <meta name="robots" content="noindex, nofollow">
+    <title>stoobit - Blog</title>
 
     <style>
         /* Reset some default styles */
@@ -50,7 +49,6 @@
 
         .logo .bit {
             color: #4169e1;
-            /* Ultramarine blue */
         }
 
         nav a {
@@ -62,6 +60,45 @@
 
         nav a:hover {
             color: #4169e1;
+        }
+
+        /* Blog list */
+        .blog-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .blog-item {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .blog-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .blog-item h3 {
+            margin: 15px 0 10px 0;
+            font-size: 20px;
+        }
+
+        .blog-item p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .blog-item:hover {
+            transform: translateY(-5px);
         }
 
         /* Footer */
@@ -81,11 +118,8 @@
         .footer-column {
             flex: 1;
             min-width: 150px;
-            /* Minimum width for columns */
             margin: 10px;
-            /* Reduced margin for narrow spaces */
             text-align: center;
-            /* Center the text */
         }
 
         .footer-column h4 {
@@ -97,7 +131,6 @@
         .footer-column ul {
             list-style: none;
             padding: 0;
-            /* Remove default padding */
         }
 
         .footer-column ul li {
@@ -117,25 +150,7 @@
         @media (max-width: 768px) {
             .footer-container {
                 justify-content: center;
-                /* Center columns on small screens */
             }
-        }
-
-        /* Coming Soon Section */
-        .coming-soon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: calc(100vh - 80px);
-            /* Full viewport height minus header height */
-            background-color: #e0e7ff;
-            /* Light ultramarine */
-            text-align: center;
-        }
-
-        .coming-soon h1 {
-            font-size: 48px;
-            color: #000;
         }
     </style>
 </head>
@@ -153,9 +168,16 @@
         </nav>
     </header>
 
-    <!-- Coming Soon Section -->
-    <section class="coming-soon">
-        <h1>Coming Soon.</h1>
+    <!-- Blog List Section -->
+    <section class="blog-list">
+        <!-- Blog Post 1 -->
+        <a href="blog/post001.html" class="blog-item">
+            <img src="blogassets/post001_img01.jpg" alt="Blog Post 1 Image">
+            <h3>Our First Blog Post</h3>
+            <p>This is just a test, but we will start blogging soon.</p>
+        </a>
+
+
     </section>
 
     <footer>
@@ -167,7 +189,6 @@
                     <li><a href="https://www.instagram.com/productivityproapp/" target="_blank">Instagram</a></li>
                     <li><a href="https://x.com/stoobitofficial" target="_blank">X (Twitter)</a></li>
                     <li><a href="https://www.youtube.com/@prod_pro" target="_blank">YouTube</a></li>
-                    </li>
                 </ul>
             </div>
             <!-- Contact -->
