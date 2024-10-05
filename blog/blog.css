@@ -105,25 +105,7 @@ nav a:hover {
 .code-container {
     position: relative;
     margin: 20px 0;
-}
-
-/* Copy Button */
-.copy-button {
-    top: 10px;
-    right: 10px;
-    background-color: #4169e1;
-    color: #fff;
-    border: none;
-    padding: 7px 10px;
-    font-size: 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: block; /* Ensure the button is displayed */
-}
-
-.copy-button:hover {
-    background-color: #3652b3;
+    border-radius: 20px;
 }
 
 /* Code Block Styling */

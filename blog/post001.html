@@ -15,7 +15,8 @@
     <!-- Prism.js JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
     <!-- Prism.js Autoloader for Language Support -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,6 @@
         </blockquote>
 
         <h2>Example Swift Code Snippet</h2>
-        <button class="copy-button" onclick="copyCode(this)">Copy</button>
         <div class="code-container">
             <pre><code class="language-swift">
 import UIKit
@@ -98,6 +98,7 @@ class ViewController: UIViewController {
 }
             </code></pre>
         </div>
+        <p></p>
 
         <h2>Part Two</h2>
         <p>
@@ -109,8 +110,10 @@ class ViewController: UIViewController {
             sadipscing
             elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
             vero eos
-            et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+            ipsum dolor sit
+            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore
             magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
             kasd
             gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -157,34 +160,6 @@ class ViewController: UIViewController {
             </div>
         </div>
     </footer>
-
-    <!-- JavaScript for Copy Functionality -->
-    <script>
-        function copyCode(button) {
-            // Find the <code> element
-            var code = button.parentElement.querySelector('code');
-            // Create a temporary textarea to hold the code
-            var textarea = document.createElement('textarea');
-            textarea.value = code.innerText;
-            document.body.appendChild(textarea);
-            textarea.select();
-            try {
-                var successful = document.execCommand('copy');
-                if (successful) {
-                    button.textContent = 'Copied!';
-                    setTimeout(function () {
-                        button.textContent = 'Copy';
-                    }, 2000);
-                } else {
-                    button.textContent = 'Copy Failed';
-                }
-            } catch (err) {
-                button.textContent = 'Copy Failed';
-            }
-            document.body.removeChild(textarea);
-        }
-    </script>
-
 </body>
 
 </html>
