@@ -31,6 +31,11 @@
 - [App Store](https://apps.apple.com/us/app/vitality-pro/id6478023736)
 - `Swift`
 
+### Urban Green
+- Google Gemini API Developer Competition Submission
+- [Submission Page](https://ai.google.dev/competition/projects/urban-green)
+- `Swift`
+
 ## Experimtents
 ### Building a Reinforcement Learning Algorithm from Scratch
 - [GitHub](https://github.com/stoobit/penML)
