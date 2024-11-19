@@ -3,7 +3,7 @@
 
 ## Website
 ### stoobit.com
-- [GitHub Project](https://github.com/stoobit/stoobit/tree/main/)
+- [GitHub](https://github.com/stoobit/stoobit/tree/main/)
 - [Website](https://www.stoobit.com/)
 - `HMTL, CSS, JS`
 
