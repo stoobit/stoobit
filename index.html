@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- shots.so: Large Template - 90 -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -133,8 +131,47 @@
             transition: background-color 0.3s;
         }
 
+        .hero2 .contact-button2 {
+            padding: 15px 30px;
+            background-color: #4169e1;
+            color: #fff;
+            border: none;
+            border-radius: 90px;
+            /* Updated corner radius */
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
         .hero .contact-button:hover {
             background-color: #3652b3;
+        }
+
+        .hero-green {
+            background-color: #d0f5d0;
+            /* Green tone */
+            color: #fff;
+            /* Ensures text is readable on green background */
+        }
+
+        .hero-green h1 {
+            color: #000;
+        }
+
+        .hero-green p {
+            color: #555;
+        }
+
+        .hero-green .contact-button {
+            background-color: #2EAD11;
+            /* Button contrast */
+            color: #fff;
+        }
+
+        .hero-green .contact-button:hover {
+            background-color: #26910e;
+            /* Slightly lighter green hover state */
+            color: #fff;
         }
 
         /* Products Section */
@@ -242,6 +279,10 @@
             color: #4169e1;
         }
 
+        .spacer {
+            height: 10px;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .footer-container {
@@ -267,18 +308,19 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Custom Mobile App Development</h1>
-        <p>I create high-quality iOS, iPadOS, macOS and Android applications tailored to your needs.</p>
-        <a href="mailto:till.bruegmann@stoobit.com" class="contact-button">Contact Me</a>
-        <span id="products"></span>
+        <h1>App Development</h1>
+        <p>We create high-quality iOS, iPadOS, macOS and Android applications tailored to your needs.</p>
+        <a href="mailto:till.bruegmann@stoobit.com" class="contact-button">Contact Us</a>
     </section>
+
     <!-- Products Section -->
     <section class="products" id="products"> <!-- Added ID for linking -->
         <h2>Our Apps</h2>
         <div class="product-list">
             <!-- Product 0 -->
             <a href="https://apps.apple.com/us/app/stoobit-search/id6737627667" class="product-item">
-                <img src="https://github.com/stoobit/stoobit/blob/main/assets/ss.png?raw=true" alt="stoobit share Preview">
+                <img src="https://github.com/stoobit/stoobit/blob/main/assets/ss.png?raw=true"
+                    alt="stoobit share Preview">
                 <div class="product-info">
                     <h3>stoobit search</h3>
                     <p>A Beautiful Way to Search the Web</p>
@@ -330,6 +372,13 @@
                 </div>
             </a>
         </div>
+    </section>
+
+    <section class="hero hero-green">
+        <h1>Homegrown</h1>
+        <p>Grow your cannabis with the help of AI and track your journey.</p>
+        <a href="https://homegrown.stoobit.com" class="contact-button">Visit Website</a>
+        <span id="products"></span>
     </section>
 
     <!-- Footer -->
