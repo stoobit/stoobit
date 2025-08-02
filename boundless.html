@@ -24,6 +24,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
+            padding-top: 120px;
         }
 
         a {
@@ -38,11 +39,18 @@
             align-items: center;
             width: 100%;
             padding: 20px 40px;
-            background-color: #f8f8f8;
-            position: absolute;
+            background: rgba(248, 248, 248, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 16px;
+            margin: 20px;
+            position: fixed;
             top: 0;
             left: 0;
+            right: 0;
             z-index: 1000;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .logo {
@@ -133,7 +141,7 @@
         </div>
         <nav>
             <a href="blog.html">Blog</a>
-            <a href="index.html#products">Apps</a>
+            <a href="index.html#products">Products</a>
         </nav>
     </header>
 

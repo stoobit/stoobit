@@ -55,6 +55,7 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
+            padding-top: 120px;
         }
 
         a {
@@ -67,11 +68,19 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 40px;
-            background-color: #f8f8f8;
-            position: sticky;
+            padding: 15px 30px;
+            background: rgba(248, 248, 248, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 25px;
+            margin: 20px;
+            position: fixed;
             top: 0;
+            left: 0;
+            right: 0;
             z-index: 1000;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .logo {
@@ -302,7 +311,7 @@
         </div>
         <nav>
             <a href="blog.html">Blog</a>
-            <a href="#products">Apps</a> <!-- Updated link to Products headline -->
+            <a href="#products">Products</a> <!-- Updated link to Products headline -->
         </nav>
     </header>
 
@@ -315,7 +324,7 @@
 
     <!-- Products Section -->
     <section class="products" id="products"> <!-- Added ID for linking -->
-        <h2>Our Apps</h2>
+        <h2>Our Products</h2>
         <div class="product-list">
             <!-- Product 0 -->
             <a href="https://apps.apple.com/us/app/stoobit-search/id6737627667" class="product-item">
@@ -360,15 +369,6 @@
                 <div class="product-info">
                     <h3>Urban Green</h3>
                     <p>Gemini API Developer Competition Submission</p>
-                </div>
-            </a>
-
-            <!-- Product 5 -->
-            <a href="https://apple.co/4es5opR" class="product-item">
-                <img src="https://github.com/stoobit/stoobit/blob/main/assets/pi.png?raw=true" alt="Pi Preview">
-                <div class="product-info">
-                    <h3>Pi Calculator</h3>
-                    <p>Made to be useful.<br />Developed by Lukas Rischer.</p>
                 </div>
             </a>
         </div>
