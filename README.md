@@ -1,5 +1,3 @@
-# Projects
-
 ## Website
 ### stoobit.com
 - [GitHub](https://github.com/stoobit/stoobit.com/)
