@@ -34,6 +34,10 @@
 - `Swift`
 
 ## Experimtents
+### Apple Foundation Models Server
+- [GitHub](https://github.com/stoobit/Foundation-Server)
+- `Swift`
+
 ### Building a Reinforcement Learning Algorithm from Scratch
 - [GitHub](https://github.com/stoobit/penML)
 - `Swift`
