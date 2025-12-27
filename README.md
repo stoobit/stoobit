@@ -8,8 +8,9 @@
 > The website is hosted on my Raspberry Pi, which can sometimes cause it to be slow.
 
 ## Apps
-### stoobit search
-- [App Store](https://apps.apple.com/us/app/stoobit-search/id6737627667)
+### Productivity Pro
+- [GitHub](https://github.com/stoobit/Productivity-Pro)
+- [App Store](https://apps.apple.com/us/app/productivity-pro/id6449678571)
 - `Swift`
 
 ### iShare QR
@@ -17,15 +18,14 @@
 - [App Store](https://apps.apple.com/us/app/ishare-qr/id6673915598)
 - `Swift`
 
-### Productivity Pro
-- [GitHub](https://github.com/stoobit/Productivity-Pro)
-- [App Store](https://apps.apple.com/us/app/productivity-pro/id6449678571)
-- `Swift`
-
 ### Vitality Pro
 - Swift Student Challenge 2024 Winner
 - [GitHub](https://github.com/stoobit/Vitality-Pro)
 - [App Store](https://apps.apple.com/us/app/vitality-pro/id6478023736)
+- `Swift`
+
+### stoobit search
+- [App Store](https://apps.apple.com/us/app/stoobit-search/id6737627667)
 - `Swift`
 
 ### Urban Green
