@@ -4,6 +4,10 @@
 - [Website](https://www.stoobit.com/)
 - `Swift` (`HMTL, CSS, JS`)
 
+### stoobit analytics 
+- [GitHub](https://github.com/stoobit-analytics)
+- [Website](https://analytics.stoobit.com/)
+
 > [!NOTE]  
 > The website is hosted on my Raspberry Pi, which can sometimes cause it to be slow.
 
