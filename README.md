@@ -2,7 +2,7 @@
 ### stoobit.com
 - [GitHub](https://github.com/stoobit/stoobit.com/)
 - [Website](https://www.stoobit.com/)
-- `Swift` (`HMTL, CSS, JS`)
+- `Swift` (`HTML, CSS, JS`)
 
 > [!NOTE]  
 > The website is hosted on my Raspberry Pi, which can sometimes cause it to be slow.
