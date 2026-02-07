@@ -51,4 +51,4 @@
 - `Objective-C`
 
 ## Recommended
-- [Project Ideas – Build Your Own]([https://github.com/stoobit/Build-Your-Own](https://github.com/codecrafters-io/build-your-own-x))
+- [Project Ideas – Build Your Own](https://github.com/codecrafters-io/build-your-own-x)
