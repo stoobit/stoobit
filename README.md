@@ -50,6 +50,5 @@
 - [GitHub](https://github.com/stoobit/Visual-Pairing)
 - `Objective-C`
 
-## Others
-- [YouTube File Download – Python Script](https://github.com/stoobit/YouTube-Downloader)
-- [Project Ideas – Build Your Own](https://github.com/stoobit/Build-Your-Own)
+## Recommended
+- [Project Ideas – Build Your Own]([https://github.com/stoobit/Build-Your-Own](https://github.com/codecrafters-io/build-your-own-x))
