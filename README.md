@@ -1,4 +1,4 @@
-## Website
+## Web
 ### stoobit.com
 - [GitHub](https://github.com/stoobit/stoobit.com/)
 - [Website](https://www.stoobit.com/)
