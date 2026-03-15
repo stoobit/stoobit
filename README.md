@@ -14,12 +14,12 @@
 ## Apps
 ### Productivity Pro
 - [GitHub](https://github.com/stoobit/Productivity-Pro)
-- [App Store](https://apps.apple.com/us/app/balance-care/id6759508081)
+- [App Store](https://apps.apple.com/us/app/productivity-pro/id6449678571)
 - `Swift`
 
 ### Balance Care 
 - [GitHub](https://github.com/stoobit/Balance-Care)
-- [App Store](https://apps.apple.com/us/app/productivity-pro/id6449678571)
+- [App Store](https://apps.apple.com/us/app/balance-care/id6759508081)
 - `Swift`
 
 ### iShare QR
