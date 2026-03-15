@@ -8,6 +8,7 @@
 > The website is hosted on my Raspberry Pi, which can sometimes cause it to be slow.
 
 ### stoobit analytics 
+- Check24 Scholarship Project
 - [GitHub](https://github.com/stoobit-analytics)
 - [Website](https://analytics.stoobit.com/)
 
@@ -18,6 +19,7 @@
 - `Swift`
 
 ### Balance Care 
+- Swift Student Challenge 2026 Project
 - [GitHub](https://github.com/stoobit/Balance-Care)
 - [App Store](https://apps.apple.com/us/app/balance-care/id6759508081)
 - `Swift`
