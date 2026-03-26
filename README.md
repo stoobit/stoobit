@@ -19,7 +19,6 @@
 - `Swift`
 
 ### Balance Care 
-- Swift Student Challenge 2026 Project
 - [GitHub](https://github.com/stoobit/Balance-Care)
 - [App Store](https://apps.apple.com/us/app/balance-care/id6759508081)
 - `Swift`
